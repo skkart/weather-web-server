@@ -7,7 +7,7 @@
     "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
-  "author": "",
+  "author": "skkart",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
