@@ -1,18 +1,27 @@
 {
   "name": "weather-web-server",
   "version": "1.0.0",
-  "description": "Simple Nodejs express app to get weather reports",
+  "description": "Simple nodejs express app to get latest weather reports.",
   "main": "src/app.js",
   "scripts": {
     "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "skkart",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.1",
     "nodemon": "^2.0.2",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skkart/weather-web-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skkart/weather-web-server/issues"
+  },
+  "homepage": "https://github.com/skkart/weather-web-server#readme"
 }
